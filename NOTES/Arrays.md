@@ -16,3 +16,4 @@ Note- For primitive type arrays the array object stores the values itself .
 For object type,each array element is an object itself.
 Object arrays store reference to objects.
 The objects can be stored anywhere in the memory(heap).
+Arrays are mutable.
