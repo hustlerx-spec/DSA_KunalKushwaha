@@ -17,3 +17,10 @@ For object type,each array element is an object itself.
 Object arrays store reference to objects.
 The objects can be stored anywhere in the memory(heap).
 Arrays are mutable.
+
+
+   // Multi dimensional Arrays
+
+ A multi dim array is an array of arrays, every element inside the outer array consider it as an ref that is pointing to some array in heap anywhere '
+ In Java it is possible for arrays higher than 3D but hard to visulize, use python( numpy and all stuff for that).
+ Size of individual arrays inside the outer array can vary.That is why giving column size isnt necessary.
