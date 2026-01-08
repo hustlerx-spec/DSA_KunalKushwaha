@@ -1,4 +1,4 @@
-package DSA.Arrays;
+package DSA.Arrays.Basics;
 
 public class SwapArr {
     public static void main(String[]args){
