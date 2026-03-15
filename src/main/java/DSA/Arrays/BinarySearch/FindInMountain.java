@@ -1,5 +1,7 @@
 package DSA.Arrays.BinarySearch;
 
+
+// find ele is in asc or des part and apply binary search according to that
 public class FindInMountain {
     public static void main(String[]args){
         int []arr={1,7,14,18,12,6,3};

@@ -9,7 +9,8 @@ public class SBuilder {
         }
         System.out.println(builder);
 
-        builder.reverse();
+        String newstr=builder.toString();
         System.out.println(builder);
+
     }
 }
