@@ -22,6 +22,7 @@ public class ArrayListExample {
 //        list.add(764000);
 //        list.add(89100);
 //        list.add(22);
+
 //
 //
 //        System.out.println(list);

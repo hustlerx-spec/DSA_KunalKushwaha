@@ -47,7 +47,7 @@ public class SearchinRotatedArray {
                 else{
                     end=mid-1;
                 }
-            }
+            }   // here we can also do if target>start then return serach in start and pivot-1 directly., because elements from start till pivot are sorted.
         }
         return -1;
     }
