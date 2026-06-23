@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Sorting {
     public static void main(String[]args){
         int[] arr={2,0,2,1,1,0};
-        insertion(arr);
+        selection(arr);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -43,7 +43,7 @@ public class Sorting {
     static void selection(int[]arr){
         for(int i=1;i<arr.length;i++){
             //find max item in remaining array and swap with correct index
-            int last=arr.length-i-1;
+            int last=arr.length-1-i;
             int maxIndex=getmaxIndex(arr,0,last);
             swap(arr,maxIndex,last);
         }
