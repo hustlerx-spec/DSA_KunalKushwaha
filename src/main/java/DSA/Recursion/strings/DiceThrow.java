@@ -20,7 +20,7 @@ public class DiceThrow {
             dice(p+i ,target-i);
         }
     }
-      // done by me ..and is exact same as kunals code
+      // done by me .and is exact same as kunal's code
     static ArrayList<String> diceList(String p, int target){
         if(target==0){
             ArrayList<String> ans=new ArrayList<>();
