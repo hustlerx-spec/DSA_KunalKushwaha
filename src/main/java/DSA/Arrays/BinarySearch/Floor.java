@@ -2,7 +2,7 @@ package DSA.Arrays.BinarySearch;
 
 public class Floor {
     public static void main(String[] args) {
-        int []arr={2,7,14,18,21,99,208,271,299,301,346,12500,16800,140000};
+        int []arr={2,7,12,14,18,21,99,208,271,299,301,346,12500,16800,140000};
         int target=12;
 
 

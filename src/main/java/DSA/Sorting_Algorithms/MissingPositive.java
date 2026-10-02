@@ -4,7 +4,6 @@ public class MissingPositive {
     public static void main(String[]args){
         int[] arr = {1};
         System.out.println(missing(arr));
-
     }
     static int missing(int[]arr){
         int i=0;

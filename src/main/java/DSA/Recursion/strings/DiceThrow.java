@@ -8,7 +8,6 @@ public class DiceThrow {
      System.out.println(diceList("",4));
      diceFace("",4,11);
      System.out.println(diceFaceRet("",4,13));
-
     }
     //Kunal's code
     static void dice(String p,int target){

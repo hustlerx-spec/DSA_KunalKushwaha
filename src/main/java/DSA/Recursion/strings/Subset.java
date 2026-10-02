@@ -9,7 +9,8 @@ public class Subset {
        int[]arr={2,1,2};
        List<List<Integer>> ans1=subset(arr);
         List<List<Integer>> ans2=subsetDuplicates(arr);
-//       System.out.println(ans1);
+       System.out.println(ans1);
+
         for(List<Integer> list:ans2){
             System.out.println(list);
         }

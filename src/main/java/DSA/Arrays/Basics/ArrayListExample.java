@@ -12,7 +12,6 @@ public class ArrayListExample {
 
         ArrayList<Integer> list = new ArrayList<>(5);// recommended
         //here we cant pass primitives we have to pass the wrapper classes.
-
 //        list.add(67);
 //        list.add(234);
 //        list.add(671);

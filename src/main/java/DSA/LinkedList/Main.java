@@ -1,0 +1,46 @@
+package DSA.LinkedList;
+
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LL list = new LL();
+         list.InsertAtFirst(3);
+        list.InsertAtFirst(2);
+        list.InsertAtFirst(8);
+        list.InsertAtFirst(17);
+        list.InsertAtIndex(100,3);
+        list.insertLast(99);
+        list.display();
+        System.out.println(list.deleteFirst());
+
+        list.display();
+        System.out.println(list.DeleteLast());
+        list.display();
+        System.out.println(list.deleteIndex(2));
+        list.display();
+        list.insertRec(88,2);
+        list.display();
+
+//                DLL list = new DLL();
+//         list.insertFirst(3);
+//        list.insertFirst(2);
+//        list.insertFirst(8);
+//        list.insertFirst(17);
+//
+//        list.display();
+//        list.insertLast(99);
+//        list.display();
+//        list.insertAfter(8,65);
+//        list.display();
+
+//        CLL list = new CLL();
+//        list.insert(23);
+//        list.insert(3);
+//        list.insert(19);
+//        list.insert(75);
+//        list.display();
+//        list.delete(19);
+//        list.display();
+    }
+}
